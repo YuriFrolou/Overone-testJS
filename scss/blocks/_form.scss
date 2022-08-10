@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  &__input {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding: 15px;
+    border: none;
+    outline: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
