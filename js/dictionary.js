@@ -33,7 +33,7 @@ const questions = [
             "num1++;<br>\n" +
             "let num2 = num1--;<br>\n" +
             "console.log(num1++);<br>\n" +
-            "console.log(--num);</code>",
+            "console.log(--num2);</code>",
         answer: 3
     },
 ];
