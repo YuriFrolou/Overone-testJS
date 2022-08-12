@@ -75,5 +75,25 @@ const questions = [
         description: "Каким будет результат выражения:<br>" +
             "<code>6 !== '6'</code>",
         answer: "true"
+    },
+    {
+        description: "Что вернет оператор сравнения:<br>" +
+            "<code>'java' < 'javascript' </code>",
+        answer: "true"
+    },
+    {
+        description: "Что вернет оператор сравнения:<br>" +
+            "<code>'javascript' === 'javascript'</code>",
+        answer: "true"
+    },
+    {
+        description: "Что вернет оператор сравнения:<br>" +
+            "<code>'JOHN' > 'John'</code>",
+        answer: "false"
+    },
+    {
+        description: "Что вернет оператор сравнения:<br>" +
+            "<code>'javascript' < 'python'</code>",
+        answer: "true"
     }
 ];
