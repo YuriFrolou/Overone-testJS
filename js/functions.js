@@ -1,5 +1,5 @@
 function checkAnswer(index, answer) {
-    if (questions[index].answer === Number(answer)) {
+    if (questions[index].answer == answer) {
         rightAnswers.push({
             ...questions[index],
             answer: answer
@@ -7,7 +7,7 @@ function checkAnswer(index, answer) {
         console.log(answer);
         console.log(`Ответ правильный`);
         countRight++;
-    } else if (questions[index].answer !== Number(answer)) {
+    } else if (questions[index].answer != answer) {
         wrongAnswers.push({
             ...questions[index],
             answer: answer

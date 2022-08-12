@@ -36,4 +36,44 @@ const questions = [
             "console.log(--num2);</code>",
         answer: 3
     },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>5 > 6</code>",
+        answer: false
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>false == 0</code>",
+        answer: true
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>false === 0</code>",
+        answer: false
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>6 <= 9</code>",
+        answer: true
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>16 == '16'</code>",
+        answer: true
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>5 != '5'</code>",
+        answer: false
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>22 === '22'</code>",
+        answer: false
+    },
+    {
+        description: "Каким будет результат выражения:<br>" +
+            "<code>6 !== '6'</code>",
+        answer: true
+    }
 ];
